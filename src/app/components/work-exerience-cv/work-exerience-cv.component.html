@@ -1,1 +1,21 @@
-<p>work-exerience-cv works!</p>
+<div class="container" *ngFor="let work of workExperiencies">
+    <div class="row"> 
+      <h4>Work Experience</h4>
+      <div class="col-md">
+        <p>{{work.empresa}} - {{work.puesto}} - {{work.fecha}}</p>
+        <p>Desarrollo de auditorías en entornos web por medio de
+          metodologías como OWASP Top 10
+        </p>
+      </div>
+      <div class="col-md">
+        <p>IntegriAp - Servicio Social: Python Developer - 2022</p>
+        <p>Desarrollo de aplicaciones web y API's
+          haciendo uso de Python 
+        </p>
+      </div>
+      <div class="col-md">
+        <p>HackCode - Owner & Freelancer - 2019 -2022</p>
+        <p>IntegriAp - Servicio Social: Python Developer - 2022</p>
+      </div>
+    </div>
+  </div>

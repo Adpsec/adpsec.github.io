@@ -10,6 +10,7 @@ export class HeaderCvComponent implements OnInit {
   constructor() { }
 
   ngOnInit(): void {
+ 
   }
 
 }
