@@ -1,32 +1,21 @@
-<div class="container">
-    <div class="row">
+<div class="container" *ngFor="let work of workExperiencies">
+    <div class="row"> 
       <h4>Work Experience</h4>
-      <div class="col-md" *ngFor="let work of workExperiencies">
-        <p>Cibera: Penetration Tester - 2021</p>
-        <p>IntegriAp - Servicio Social: Python Developer - 2022</p>
-        <p>Infinity: IT Consultant - 2021</p>
-        <p>HackCode: Owner & Freelancer - 2019</p>
+      <div class="col-md">
+        <p>{{work.empresa}} - {{work.puesto}} - {{work.fecha}}</p>
+        <p>Desarrollo de auditorías en entornos web por medio de
+          metodologías como OWASP Top 10
+        </p>
       </div>
       <div class="col-md">
-        <h4>Work Experience</h4>
-        <p>Cibera: Penetration Tester - 2021</p>
         <p>IntegriAp - Servicio Social: Python Developer - 2022</p>
-        <p>Infinity: IT Consultant - 2021</p>
-        <p>HackCode: Owner & Freelancer - 2019</p>
+        <p>Desarrollo de aplicaciones web y API's
+          haciendo uso de Python 
+        </p>
       </div>
       <div class="col-md">
-        <h4>Work Experience</h4>
-        <p>Cibera: Penetration Tester - 2021</p>
+        <p>HackCode - Owner & Freelancer - 2019 -2022</p>
         <p>IntegriAp - Servicio Social: Python Developer - 2022</p>
-        <p>Infinity: IT Consultant - 2021</p>
-        <p>HackCode: Owner & Freelancer - 2019</p>
-      </div>
-      <div class="col-md">
-        <h4>Work Experience</h4>
-        <p>Cibera: Penetration Tester - 2021</p>
-        <p>IntegriAp - Servicio Social: Python Developer - 2022</p>
-        <p>Infinity: IT Consultant - 2021</p>
-        <p>HackCode: Owner & Freelancer - 2019</p>
       </div>
     </div>
   </div>
