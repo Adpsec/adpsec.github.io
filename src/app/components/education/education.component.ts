@@ -16,7 +16,8 @@ export class EducationComponent implements OnInit {
     const edu1 = {
       nombre: "Universidad Veracruzana",
       fecha: "2020-2024",
-      carrera: "Ingeniería de Software"
+      carrera: "Ingeniería de Software",
+      logro: "Creación de un Sistema de inventariado por voz"
     };
 
     this.educationExperiencies.push(edu1);
