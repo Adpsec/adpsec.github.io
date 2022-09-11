@@ -6,6 +6,7 @@ import { HeaderCvComponent } from './components/header-cv/header-cv.component';
 import { WorkExerienceCvComponent } from './components/work-exerience-cv/work-exerience-cv.component';
 import { SkillsCvComponent } from './components/skills-cv/skills-cv.component';
 import { CertificatesCvComponent } from './components/certificates-cv/certificates-cv.component';
+import { EducationComponent } from './components/education/education.component';
 
 @NgModule({
   declarations: [
@@ -13,7 +14,8 @@ import { CertificatesCvComponent } from './components/certificates-cv/certificat
     HeaderCvComponent,
     WorkExerienceCvComponent,
     SkillsCvComponent,
-    CertificatesCvComponent
+    CertificatesCvComponent,
+    EducationComponent
   ],
   imports: [
     BrowserModule
