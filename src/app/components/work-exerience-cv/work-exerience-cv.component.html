@@ -1,1 +1,10 @@
-<p>work-exerience-cv works!</p>
+<h4>Work Experience</h4>
+<div class="container" *ngFor="let work of workExperiencies">
+    <div class="row" class="my-3"> 
+      <div class="col-md">
+        <p><b>{{work.empresa}}</b> - {{work.puesto}} - {{work.fecha}} - {{work.ubicacion}} - {{work.descripcion}}</p>
+        <h6><b>Logros</b></h6>
+        {{work.logros}}
+      </div>
+    </div>
+  </div>
