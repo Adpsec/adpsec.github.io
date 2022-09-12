@@ -44,10 +44,21 @@ export class WorkExerienceCvComponent implements OnInit {
         "Integración al proyecto y nuevo framework aprendido"
       ]
     };
+    let work4 = {
+      fecha:"2022",
+      ubicacion:"Cuernavaca, Mex",
+      puesto: "IT suport",
+      empresa:"Infinity Global Investment",
+      descripcion: "Desarrollo de tareas de soporte  guía en tecnologías",
+      logros: [
+        "Implementación de un modelo de TI a los empleados"
+      ]
+    };
 
     this.workExperiencies.push(work1);
     this.workExperiencies.push(work2);
     this.workExperiencies.push(work3);
+    this.workExperiencies.push(work4);
     }
   }
 
