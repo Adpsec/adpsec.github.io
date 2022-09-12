@@ -1,1 +1,13 @@
-<p>certificates-cv works!</p>
+<div class="container p-3">
+  <h4>Achievements & Certificates</h4>
+  <div class="container" *ngFor="let cert of certificates">
+    <div class="row" class="my-3">
+      <div class="col-md">
+        <p>
+          <b>{{ cert.nombre }} ({{ cert.fecha }})</b>
+        </p>
+        <p>{{ cert.descripcion }}</p>
+      </div>
+    </div>
+  </div>
+</div>
