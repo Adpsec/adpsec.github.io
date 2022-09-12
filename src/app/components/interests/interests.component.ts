@@ -29,15 +29,12 @@ export class InterestsComponent implements OnInit {
       nombre: "Programar"
     }
 
-    const hobbie5 = {
-      nombre: "Crear contenido"
-    }
 
-    const hobbie6 = {
+    const hobbie5 = {
       nombre: "Cafe"
     }
 
-    const hobbie7 = {
+    const hobbie6 = {
       nombre: "Psicología"
     }
 
@@ -47,7 +44,5 @@ export class InterestsComponent implements OnInit {
     this.interests.push(hobbie4);
     this.interests.push(hobbie5);
     this.interests.push(hobbie6);
-    this.interests.push(hobbie7);
   }
-
 }
