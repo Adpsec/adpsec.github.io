@@ -26,7 +26,7 @@ export class CertificatesCvComponent implements OnInit {
     }
 
     const cert3 = {
-      nombre: "Técnico en seguridad informatica (Servidores)",
+      nombre: "Técnico en seguridad informatica/Servidores",
       fecha: "2019",
       descripcion: "Capacitación sobre procesos para securizar servidores y los peligros que corren"
     }
