@@ -8,6 +8,7 @@ import { SkillsCvComponent } from './components/skills-cv/skills-cv.component';
 import { CertificatesCvComponent } from './components/certificates-cv/certificates-cv.component';
 import { EducationComponent } from './components/education/education.component';
 import { LanguajesComponent } from './components/languajes/languajes.component';
+import { InterestsComponent } from './components/interests/interests.component';
 
 @NgModule({
   declarations: [
@@ -17,7 +18,8 @@ import { LanguajesComponent } from './components/languajes/languajes.component';
     SkillsCvComponent,
     CertificatesCvComponent,
     EducationComponent,
-    LanguajesComponent
+    LanguajesComponent,
+    InterestsComponent
   ],
   imports: [
     BrowserModule

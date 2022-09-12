@@ -1,0 +1,12 @@
+<div class="container p-3">
+    <h4>Interests</h4>
+    <div class="container" *ngFor="let likes of interests">
+      <div class="row" class="my-3">
+        <div class="col-md flex-column justify-content-center">
+            <ul>
+                <li> <b>{{ likes.nombre }}</b> </li>
+            </ul>
+        </div>
+      </div>
+    </div>
+  </div>
