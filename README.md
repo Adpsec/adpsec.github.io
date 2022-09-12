@@ -1,6 +1,10 @@
 # MyCv
 # Config releases
+<<<<<<< HEAD
+# Config languajes
+=======
 # Config archivements and certs component
+>>>>>>> a318d0eb67813ebf530c9994d6b428ee78325152
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.1.3.
 
 ## Development server
