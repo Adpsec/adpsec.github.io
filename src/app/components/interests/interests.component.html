@@ -1,0 +1,12 @@
+<div class="container p-5">
+    <h4>Interests</h4>
+    <div class="container" *ngFor="let likes of interests">
+      <div class="row my-sm-2">
+        <div class="col-md">
+            <ul class="list-inlist">
+                <li> <b>{{ likes.nombre }}</b> </li>
+            </ul>
+        </div>
+      </div>
+    </div>
+  </div>
