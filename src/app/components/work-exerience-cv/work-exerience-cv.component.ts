@@ -34,8 +34,20 @@ export class WorkExerienceCvComponent implements OnInit {
         "Creación de comunidad y marca en Hacking"
       ]
     };
+    let work3 = {
+      fecha:"2022-2023",
+      ubicacion:"Orizaba, Ver",
+      puesto: "Backend Developer",
+      empresa:"IntegriApp",
+      descripcion: "Encargado del desarrollo de API haciendo uso de Python",
+      logros: [
+        "Integración al proyecto y nuevo framework aprendido"
+      ]
+    };
+
     this.workExperiencies.push(work1);
     this.workExperiencies.push(work2);
+    this.workExperiencies.push(work3);
     }
   }
 
