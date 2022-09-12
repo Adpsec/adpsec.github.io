@@ -1,25 +1,12 @@
-<!-- <div class="container">
-    <div class="row">
-      <h4>Work Experience</h4>
-      <div class="col-md" *ngFor="let work of workExperiencies">
-        <p>Cibera: Penetration Tester - 2021</p>
-        <p>IntegriAp - Servicio Social: Python Developer - 2022</p>
-        <p>Infinity: IT Consultant - 2021</p>
-        <p>HackCode: Owner & Freelancer - 2019</p>
-      </div>
+<h4>Work Experience</h4>
+<div class="container" *ngFor="let work of workExperiencies">
+    <div class="row" class="my-3"> 
       <div class="col-md">
-        <h4>Work Experience</h4>
-        <p>Cibera: Penetration Tester - 2021</p>
-        <p>IntegriAp - Servicio Social: Python Developer - 2022</p>
-        <p>Infinity: IT Consultant - 2021</p>
-        <p>HackCode: Owner & Freelancer - 2019</p>
-      </div>
-      <div class="col-md">
-        <h4>Work Experience</h4>
-        <p>Cibera: Penetration Tester - 2021</p>
-        <p>IntegriAp - Servicio Social: Python Developer - 2022</p>
-        <p>Infinity: IT Consultant - 2021</p>
-        <p>HackCode: Owner & Freelancer - 2019</p>
+        <p><b>{{work.empresa}}</b> - {{work.puesto}} - {{work.fecha}} - {{work.ubicacion}} - {{work.descripcion}}</p>
+        <h6><b>Logros</b></h6>
+        <ul>
+          <li>{{work.logros}}</li>
+        </ul>
       </div>
     </div>
-  </div> -->
+  </div>
