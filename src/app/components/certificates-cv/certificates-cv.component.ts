@@ -29,12 +29,6 @@ export class CertificatesCvComponent implements OnInit {
       //Image: "/home/peter/Documentos/adpsec.github.io/src/assets/images/Adriel Peregrina - Pandas.png"
     }
 
-    const cert3 = {
-      nombre: "Técnico en seguridad informatica/Servidores",
-      fecha: "2019",
-      descripcion: "Capacitación sobre procesos para securizar servidores y los peligros que corren"
-    }
-
     this.certificates.push(cert1);
     this.certificates.push(cert2);
     this.certificates.push(cert3);
