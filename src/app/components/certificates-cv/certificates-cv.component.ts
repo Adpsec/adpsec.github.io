@@ -14,15 +14,17 @@ export class CertificatesCvComponent implements OnInit {
   ngOnInit(): void {
 
     const cert1 = {
-      nombre: "Diplomado en seguridad informatica ágil",
-      fecha: "2021",
-      descripcion: "Diplomado en seguridad informatica aplicando metodologías especificas"
+      nombre: "Python Introduction",
+      fecha: "2023",
+      descripcion: "Introducción a python",
+      Image: "/home/peter/Documentos/adpsec.github.io/src/assets/images/Adriel Peregrina - Python.png"
     }
 
     const cert2 = {
-      nombre: "Técnico en seguridad informatica (análisis de riesgos)",
-      fecha: "2021",
-      descripcion: "Capacitación enfocada e la estimación de los riesgos informaticos y su prevención"
+      nombre: "Python Pandas Introduction",
+      fecha: "2023",
+      descripcion: "Introdución al uso de librerías para datos con python",
+      Image: "/home/peter/Documentos/adpsec.github.io/src/assets/images/Adriel Peregrina - Pandas.png"
     }
 
     const cert3 = {
