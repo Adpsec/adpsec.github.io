@@ -31,7 +31,7 @@ export class CertificatesCvComponent implements OnInit {
 
     this.certificates.push(cert1);
     this.certificates.push(cert2);
-    this.certificates.push(cert3);
+    
   }
 
 }
