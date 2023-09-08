@@ -17,14 +17,16 @@ export class CertificatesCvComponent implements OnInit {
       nombre: "Python Introduction",
       fecha: "2023",
       descripcion: "Introducción a python",
-      Image: "/home/peter/Documentos/adpsec.github.io/src/assets/images/Adriel Peregrina - Python.png"
+      link: "https://www.kaggle.com/learn/certification/peterharcker/python"
+      //Image: "/home/peter/Documentos/adpsec.github.io/src/assets/images/Adriel Peregrina - Python.png"
     }
 
     const cert2 = {
       nombre: "Python Pandas Introduction",
       fecha: "2023",
       descripcion: "Introdución al uso de librerías para datos con python",
-      Image: "/home/peter/Documentos/adpsec.github.io/src/assets/images/Adriel Peregrina - Pandas.png"
+      link: "https://www.kaggle.com/learn/certification/peterharcker/pandas"
+      //Image: "/home/peter/Documentos/adpsec.github.io/src/assets/images/Adriel Peregrina - Pandas.png"
     }
 
     const cert3 = {
